@@ -1,0 +1,264 @@
+:root {
+  --mainColor: #fff;
+
+  --bodyColor: #1e202b;
+
+  --secColor: #009ad8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  padding: 3.125rem 0;
+  background-color: var(--bodyColor);
+}
+
+.nav-item {
+  margin-right: 0.625rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--mainColor);
+  padding: 5px 25px;
+  border: 2px solid transparent;
+  border-radius: 0.9375rem;
+  transition: all 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+.navbar .container .content-title img {
+  margin-right: 0.9375rem;
+}
+
+.navbar .container .content-title .title h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--mainColor);
+  margin: 0;
+}
+
+.navbar .container .content-title .title span {
+  font-size: 0.625rem;
+  font-weight: 300;
+  color: #bfc1c8;
+}
+
+.navbar-nav .nav-link.active {
+  border-color: var(--secColor);
+  color: var(--secColor);
+}
+
+main {
+  padding-block: 3.125rem 0.625rem;
+  background-image: url(../img/land.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+section.search {
+}
+
+.find {
+  margin-bottom: 4.375rem;
+  position: relative;
+}
+
+.find input.search {
+  padding: 20px 50px 20px 20px;
+  border: none;
+  outline: none;
+  border-radius: 1.875rem;
+  background-color: var(--bodyColor);
+  color: var(--mainColor);
+}
+.find input.search::placeholder {
+  color: #bfc1c8;
+  font-size: 0.75rem;
+}
+
+.find input.btn {
+  padding: 0 40px;
+  position: absolute;
+  top: 0.3125rem;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+}
+
+section.content {
+  padding-block: 0 0.625rem;
+}
+
+section .container .parent {
+  background-color: #323544;
+}
+
+section .container .dayDetails {
+  padding: 0.625rem;
+  background-color: #2d303d;
+}
+
+section .container .dayDetails .day {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #bfc1c8;
+}
+
+section .container .dayDetails .date {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #bfc1c8;
+}
+
+section .container .locationDetails {
+  padding: 2.1875rem 0.9375rem;
+  background-color: #323544;
+  text-align: left;
+}
+
+section .container .locationDetails .location {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #bfc1c8;
+}
+
+section .container .locationDetails .degree {
+  font-size: 5.625rem;
+  font-weight: 700;
+  color: var(--mainColor);
+}
+
+section .container .locationDetails .weather {
+  margin-block: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--secColor);
+}
+
+section .container .locationDetails span {
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #bfc1c8;
+}
+
+section .container .locationDetails span img {
+  margin-right: 0.3125rem;
+}
+
+section .container .next .dayDetails {
+  padding: 0.625rem;
+  background-color: #2d303d;
+  text-align: center;
+}
+
+section .container .next .dayDetails .day {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #bfc1c8;
+  margin: auto;
+}
+
+section .container .next .weatherDetails {
+  padding: 2.1875rem 0.9375rem;
+  background-color: #323544;
+  text-align: center;
+}
+
+section .container .next .weatherDetails .img {
+  width: 15%;
+  margin-bottom: 1.25rem;
+  margin-inline: auto;
+}
+
+section .container .next .weatherDetails .degreeMax {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--mainColor);
+}
+
+section .container .next .weatherDetails .degreeMin {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #bfc1c8;
+}
+
+section .container .next .weatherDetails .weather {
+  margin-block: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--secColor);
+}
+
+.middel {
+  background-color: #262936;
+}
+
+section .container .middel .next .dayDetails {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section .container .middel .next .weatherDetails {
+  background-color: #262936;
+}
+
+footer {
+  padding: 3.125rem 0;
+  background-color: #262936;
+}
+
+footer .find input.search {
+  padding: 15px 100px 15px 20px;
+}
+
+footer .find input.btn {
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 0.875rem;
+}
+
+footer .links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.9375rem;
+}
+
+footer .links ul li {
+  margin-right: 0.3125rem;
+}
+
+footer .links ul li a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+}
+
+footer .links ul li a:hover {
+  color: white;
+  background-color: #009ad8;
+}
+
+footer p {
+  margin-top: -30px !important;
+  color: rgb(191, 193, 200);
+  font-size: 0.875rem;
+}
